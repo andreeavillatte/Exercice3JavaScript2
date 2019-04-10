@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+  <title>Exercice3JavaScript2</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="d-md-flex">
+      <div class="p-2 mx-2 mt-3 p-3 text-left">
+          <div class="row no-gutters">
+              <div class="p-4 col-12 col-sm-6 col-md-4 bg-success border shadow"><h1>Exercice 2 Javascript 2</h1></div>
+              <div class="p-4 col-6 col-md-8 bg-secondary  border">
+                  <h1>Exercice3JavaScript2</h1>
+                  <p>Dans le fichier HTML fourni, afficher une boite de dialogue avec le message : "Merci de votre
+                      participation" quand le champ de saisie perd le focus.</p>
+              </div>
+        </div>
+      </div>
+      <div class="p-2 mx-2 mt-3 p-3 bg-danger text-left">
+          <form>
+              <label for="lastname">Votre nom  : </label>
+              <input onkeydown="Valeur()" type="text" name="lastname" id="lastname" />
+          </form>
+      </div>
+    </div> <!-- fin de div pour le group de deux div -->
+  </div>
+  <!--fin de div class container -->
+  <script src="script.js"></script>
+</body>
+
+</html>
